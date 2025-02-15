@@ -1,0 +1,9 @@
+import statistics
+
+mylist = [32, 61, 13, 15, 9, 6, 1]
+
+print("Mode: ", statistics.mode(mylist))
+
+print("Median: ", statistics.median(mylist))
+
+print("Mean: ", statistics.mean(mylist))
